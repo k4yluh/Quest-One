@@ -1,0 +1,27 @@
+.grid {
+    position: absolute;
+    top: 500px;
+    left: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 14vw);
+    grid-gap: 10px;
+}
+
+.center{
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+h3{
+    text-decoration:underline ;
+}
+
+.imgs {
+    height: 160px;
+    width: 170px;
+}
+
+body {
+    background-color: #e6f2ff;
+}
